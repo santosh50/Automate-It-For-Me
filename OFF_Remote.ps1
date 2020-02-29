@@ -5,4 +5,4 @@ Set-Item WSMan:\localhost\Client\TrustedHosts -Value "LAPTOP-PD72VIJS" -Force Re
 Start-Service WinRM
 Set-Item WSMan:\localhost\Client\TrustedHosts -Value "DESKTOP-N3OLGNJ" -Force Restart-Service WinRM
 Enter-PSSession -ComputerName DESKTOP-N3OLGNJ -Credential Saathvik69
-#Type in the password for Remote_PC and type the command mentioned in shutdown.ps1
+#Type in the password for Remote_PC and type the command mentioned in shutdown_Remote.ps1
