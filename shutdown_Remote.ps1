@@ -1,0 +1,1 @@
+﻿Stop-Computer -ComputerName DESKTOP-N3OLGNJ -Force
